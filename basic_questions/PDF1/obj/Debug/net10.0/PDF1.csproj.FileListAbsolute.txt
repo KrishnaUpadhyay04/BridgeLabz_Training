@@ -1,0 +1,15 @@
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\BridgeLabz_Training\basic_questions\PDF1\bin\Debug\net10.0\PDF1.exe
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\BridgeLabz_Training\basic_questions\PDF1\bin\Debug\net10.0\PDF1.deps.json
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\BridgeLabz_Training\basic_questions\PDF1\bin\Debug\net10.0\PDF1.runtimeconfig.json
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\BridgeLabz_Training\basic_questions\PDF1\bin\Debug\net10.0\PDF1.dll
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\BridgeLabz_Training\basic_questions\PDF1\bin\Debug\net10.0\PDF1.pdb
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\BridgeLabz_Training\basic_questions\PDF1\obj\Debug\net10.0\PDF1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\BridgeLabz_Training\basic_questions\PDF1\obj\Debug\net10.0\PDF1.AssemblyInfoInputs.cache
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\BridgeLabz_Training\basic_questions\PDF1\obj\Debug\net10.0\PDF1.AssemblyInfo.cs
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\BridgeLabz_Training\basic_questions\PDF1\obj\Debug\net10.0\PDF1.csproj.CoreCompileInputs.cache
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\BridgeLabz_Training\basic_questions\PDF1\obj\Debug\net10.0\PDF1.sourcelink.json
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\BridgeLabz_Training\basic_questions\PDF1\obj\Debug\net10.0\PDF1.dll
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\BridgeLabz_Training\basic_questions\PDF1\obj\Debug\net10.0\refint\PDF1.dll
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\BridgeLabz_Training\basic_questions\PDF1\obj\Debug\net10.0\PDF1.pdb
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\BridgeLabz_Training\basic_questions\PDF1\obj\Debug\net10.0\PDF1.genruntimeconfig.cache
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\BridgeLabz_Training\basic_questions\PDF1\obj\Debug\net10.0\ref\PDF1.dll

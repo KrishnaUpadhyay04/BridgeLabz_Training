@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Krishna Upadhyay\\OneDrive\\Desktop\\BridgeLabz_Training\\BridgeLabz_Training\\CSBasics\\Arrays\\Arrays.csproj": {}
+    "c:\\Users\\Krishna Upadhyay\\OneDrive\\Desktop\\BridgeLabz_Training\\BridgeLabz_Training\\basic_questions\\PDF2\\PDF2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Krishna Upadhyay\\OneDrive\\Desktop\\BridgeLabz_Training\\BridgeLabz_Training\\CSBasics\\Arrays\\Arrays.csproj": {
+    "c:\\Users\\Krishna Upadhyay\\OneDrive\\Desktop\\BridgeLabz_Training\\BridgeLabz_Training\\basic_questions\\PDF2\\PDF2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Krishna Upadhyay\\OneDrive\\Desktop\\BridgeLabz_Training\\BridgeLabz_Training\\CSBasics\\Arrays\\Arrays.csproj",
-        "projectName": "Arrays",
-        "projectPath": "C:\\Users\\Krishna Upadhyay\\OneDrive\\Desktop\\BridgeLabz_Training\\BridgeLabz_Training\\CSBasics\\Arrays\\Arrays.csproj",
+        "projectUniqueName": "c:\\Users\\Krishna Upadhyay\\OneDrive\\Desktop\\BridgeLabz_Training\\BridgeLabz_Training\\basic_questions\\PDF2\\PDF2.csproj",
+        "projectName": "PDF2",
+        "projectPath": "c:\\Users\\Krishna Upadhyay\\OneDrive\\Desktop\\BridgeLabz_Training\\BridgeLabz_Training\\basic_questions\\PDF2\\PDF2.csproj",
         "packagesPath": "C:\\Users\\Krishna Upadhyay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Krishna Upadhyay\\OneDrive\\Desktop\\BridgeLabz_Training\\BridgeLabz_Training\\CSBasics\\Arrays\\obj\\",
+        "outputPath": "c:\\Users\\Krishna Upadhyay\\OneDrive\\Desktop\\BridgeLabz_Training\\BridgeLabz_Training\\basic_questions\\PDF2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
