@@ -1,0 +1,15 @@
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\OOPS\Basics\Level1Part1\bin\Debug\net10.0\Level1.exe
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\OOPS\Basics\Level1Part1\bin\Debug\net10.0\Level1.deps.json
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\OOPS\Basics\Level1Part1\bin\Debug\net10.0\Level1.runtimeconfig.json
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\OOPS\Basics\Level1Part1\bin\Debug\net10.0\Level1.dll
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\OOPS\Basics\Level1Part1\bin\Debug\net10.0\Level1.pdb
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\OOPS\Basics\Level1Part1\obj\Debug\net10.0\Level1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\OOPS\Basics\Level1Part1\obj\Debug\net10.0\Level1.AssemblyInfoInputs.cache
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\OOPS\Basics\Level1Part1\obj\Debug\net10.0\Level1.AssemblyInfo.cs
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\OOPS\Basics\Level1Part1\obj\Debug\net10.0\Level1.csproj.CoreCompileInputs.cache
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\OOPS\Basics\Level1Part1\obj\Debug\net10.0\Level1.sourcelink.json
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\OOPS\Basics\Level1Part1\obj\Debug\net10.0\Level1.dll
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\OOPS\Basics\Level1Part1\obj\Debug\net10.0\refint\Level1.dll
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\OOPS\Basics\Level1Part1\obj\Debug\net10.0\Level1.pdb
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\OOPS\Basics\Level1Part1\obj\Debug\net10.0\Level1.genruntimeconfig.cache
+C:\Users\Krishna Upadhyay\OneDrive\Desktop\BridgeLabz_Training\OOPS\Basics\Level1Part1\obj\Debug\net10.0\ref\Level1.dll
