@@ -1,0 +1,7 @@
+BookingId,PassengerName,FromCode,ToCode,SeatClass
+BK1,Ajay Mehta,DEL,BOM,Economy
+BK2,Ritu Sharma,BOM,BLR,Business
+BK3,Karan Malhotra,XXX,DEL,Economy
+BK4,Pooja Desai,BLR,DEL,Economy
+BK5,Nikhil Rao,DEL,BOM,Economy
+BK6,Tara Singh,DEL,BOM,Economy

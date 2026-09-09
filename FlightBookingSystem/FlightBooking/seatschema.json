@@ -1,0 +1,10 @@
+{
+    "type": "string",
+    "properties": 
+    {
+        "seat": {
+            "type" : ["Economy", "Business"]
+        }
+    },
+    "required": ["seat"]
+}

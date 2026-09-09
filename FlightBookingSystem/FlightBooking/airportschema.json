@@ -1,0 +1,10 @@
+{
+    "type": "string",
+    "properties": 
+    {
+        "airport": {
+            "type" : ["DEL", "BOM", "BLR", "MAA", "CCU"]
+        }
+    },
+    "required": ["airport"]
+}
