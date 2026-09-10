@@ -1,17 +1,30 @@
 ﻿using FlightBooking;
-using FlightBooking.Models;
 
 class Program
 {
     public static void Main(string[] args)
     {
-        FlightBooking FlightBooking = new FlightBooking();
+        FlightBooking flightBooking = new FlightBooking();
 
-        Booking B1 = new("BK1", "Ajay Mehta", "DEL", "BOM", "Economy");
-        Booking B2 = new("BK2", "Ritu Sharma", "BOM", "BLR", "Business");
+        flightBooking.ProcessBooking();
 
-        FlightBooking.AddBooking(B1);
+        Console.WriteLine();
+        Console.WriteLine("ALLOCATIONS");
 
-        FlightBooking.AddBooking(B2);
+        foreach (var allocation in flightBooking.GetAllocations())
+        {
+            Console.WriteLine($"{allocation.BookingId} - " + $"{allocation.PassengerName} - " + $"{allocation.SeatClass} - " + $"{allocation.SeatNumber}");
+        }
+
+        Console.WriteLine();
+
+        Console.WriteLine($"Remaining Economy Seats: " + $"{flightBooking.GetRemainingEconomySeats()}");
+
+        Console.WriteLine($"Remaining Business Seats: " + $"{flightBooking.GetRemainingBusinessSeats()}");
+
+        Console.WriteLine();
+        Console.WriteLine("REJECTED");
+
+        flightBooking.DisplayRejectedFlights();
     }
 }
