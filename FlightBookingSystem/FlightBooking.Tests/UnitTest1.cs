@@ -29,7 +29,7 @@ public class Tests
         FlightBooking.Add(booking1);
         Booking booking2 = new Booking("BK1", "Ajay Mehta", "DEL", "BOM", "Economy");
 
-        Assert.Throws<DuplicateBookingException>(FlightBooking.Add(booking2));
+        Assert.Throws<DuplicateBookingException>(() => FlightBooking.Add(booking2));
     }
 
 
@@ -51,7 +51,7 @@ public class Tests
     {
         FlightBooking.BusinessSeat = 0;
 
-        Assert.Throws<SeatUnavailableException>( FlightBooking.Add(new Booking("BK5", " Krishna", "BLR", "BOM", "Business")));
+        Assert.Throws<SeatUnavailableException>(() => FlightBooking.Add(new Booking("BK5", " Krishna", "BLR", "BOM", "Business")));
     }
 
 
@@ -59,17 +59,15 @@ public class Tests
 
     public void InvalidOriginAirport()
     {
-        Assert.Throws<FlightException>(FlightBooking.Add(new Booking("BK5", " Krishna", "", "BOM", "Business")));
+        Assert.Throws<FlightException>(() => FlightBooking.Add(new Booking("BK5", " Krishna", "", "BOM", "Business")));
     }
 
     [Test]
 
     public void InvalidDestinationAirport()
     {
-        Assert.Throws<FlightException>(FlightBooking.Add(new Booking("BK5", " Krishna", "BLR", "", "Business")));
+        Assert.Throws<FlightException>(() => FlightBooking.Add(new Booking("BK5", " Krishna", "BLR", "", "Business")));
     }
-
-    [Test]
     
 
 }

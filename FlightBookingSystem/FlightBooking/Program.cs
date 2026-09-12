@@ -1,10 +1,10 @@
-﻿using FlightBooking;
+﻿namespace FlightBooking;
 
 class Program
 {
     public static void Main(string[] args)
     {
-        FlightBooking flightBooking = new FlightBooking();
+        FlightBooking.FlightBooking flightBooking = new FlightBooking.FlightBooking();
 
         flightBooking.ProcessBooking();
 

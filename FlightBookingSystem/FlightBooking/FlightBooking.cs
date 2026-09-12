@@ -34,11 +34,7 @@ public class FlightBooking
 
         airports = new HashSet<string>();
 
-        seatClass = new HashSet<string>
-        {
-            "Economy",
-            "Business"
-        };
+        seatClass = new HashSet<string> {"Economy", "Business"};
 
         LoadAirports();
     }
@@ -64,7 +60,7 @@ public class FlightBooking
 
     public void ProcessBooking(string filePath = "flights.csv")
     {
-        if (airports.Count == 0) LoadAirports();
+        // if (airports.Count == 0) LoadAirports();
 
         using (FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read))
         {
@@ -114,7 +110,7 @@ public class FlightBooking
 
         if (fields.Length != 5)throw new FlightException("Invalid CSV record.");
 
-        return new Booking(fields[0].Trim(), fields[1].Trim(), fields[2].Trim(), fields[3].Trim(), fields[4].Trim());
+        return new Booking(fields[0], fields[1], fields[2], fields[3], fields[4]);
     }
 
 
@@ -147,7 +143,7 @@ public class FlightBooking
 
         if (booking.SeatClass == "Economy")
         {
-            if (EconomySeat < 1)                 throw new SeatUnavailableException("No Economy seats available.");
+            if (EconomySeat < 1) throw new SeatUnavailableException("No Economy seats available.");
 
             string seatNumber = "E" + economySeatNumber;
 
@@ -245,12 +241,12 @@ public class FlightBooking
             }
 
 
-            string jsonstring =JsonSerializer.Serialize(finalAllocations, new JsonSerializerOptions
+            string jsonstring = JsonSerializer.Serialize(finalAllocations, new JsonSerializerOptions
             {
                 WriteIndented = true
             });
 
-            using (FileStream fs =new FileStream("allocations.json", FileMode.Create, FileAccess.Write))
+            using (FileStream fs = new FileStream("allocations.json", FileMode.Create, FileAccess.Write))
             {
                 using (StreamWriter writer = new StreamWriter(fs))
                 {
@@ -269,7 +265,7 @@ public class FlightBooking
             {
                 string text = JsonSerializer.Serialize(new{booking.BookingId, booking.PassengerName, booking.FromCode, booking.ToCode, booking.SeatClass, Reason = reason});
 
-                byte[] bytes = Encoding.UTF8.GetBytes(text + Environment.NewLine);
+                byte[] bytes = Encoding.UTF8.GetBytes(text + "\n");
 
                 buffer.Write(bytes);
             }
@@ -305,22 +301,11 @@ public class FlightBooking
 
     public void AddFlight(Booking Booking)
     {
-        using (FileStream fs =
-               new FileStream(
-                   "flights.txt",
-                   FileMode.OpenOrCreate,
-                   FileAccess.ReadWrite))
+        using (FileStream fs = new FileStream("flights.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite))
         {
-            string text =
-                $"Booking Id: {Booking.BookingId}, " +
-                $"Passenger Name: {Booking.PassengerName}, " +
-                $"From: {Booking.FromCode}, " +
-                $"To: {Booking.ToCode}, " +
-                $"Class: {Booking.SeatClass}" +
-                Environment.NewLine;
+            string text = $"Booking Id: {Booking.BookingId}, " + $"Passenger Name: {Booking.PassengerName}, " + $"From: {Booking.FromCode}, " + $"To: {Booking.ToCode}, " + $"Class: {Booking.SeatClass}" + Environment.NewLine;
 
-            byte[] bytes =
-                Encoding.UTF8.GetBytes(text);
+            byte[] bytes = Encoding.UTF8.GetBytes(text);
 
             fs.Position = fs.Length;
 
@@ -331,18 +316,13 @@ public class FlightBooking
 
     public void ViewFlights()
     {
-        if (!File.Exists("flights.txt"))
-            return;
+        if (!File.Exists("flights.txt")) return;
 
-        using (StreamReader reader =
-               new StreamReader("flights.txt"))
+        using (StreamReader reader = new StreamReader("flights.txt"))
         {
             string? line;
 
-            while ((line = reader.ReadLine()) != null)
-            {
-                Console.WriteLine(line);
-            }
+            while ((line = reader.ReadLine()) != null) Console.WriteLine(line);
         }
     }
 
